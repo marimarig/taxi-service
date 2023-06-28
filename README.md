@@ -24,7 +24,7 @@ Project has N-Tier Architecture:
 #### TECHNOLOGIES USED:
 - Java 11 <img src="https://upload.wikimedia.org/wikipedia/uk/thumb/2/2e/Java_Logo.svg/550px-Java_Logo.svg.png" alt="img_1" style="width: 15px; height: 20px;" />
 - JDBC 📠
-- MySQL <img src="https://assets.stickpng.com/images/5848104fcef1014c0b5e4950.png" alt="img_1" style="width: 20px; height: 20px;" />
+- MySQL <img src="https://seeklogo.com/images/M/mysql-logo-69B39F7D18-seeklogo.com.png" alt="img_1" style="width: 20px; height: 20px;" />
 - Maven <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Apache_Feather_Logo.svg/640px-Apache_Feather_Logo.svg.png" alt="img_1" style="width: 20px; height: 20px;" />
 - Tomcat (9.0.76) <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Apache_Tomcat_logo.svg/2560px-Apache_Tomcat_logo.svg.png" alt="img_1" style="width: 20px; height: 20px;" />
 - JSP  📄
