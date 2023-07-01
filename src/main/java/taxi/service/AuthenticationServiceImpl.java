@@ -1,12 +1,10 @@
-package taxi.service.impl;
+package taxi.service;
 
 import java.util.Optional;
 import taxi.exception.AuthenticationException;
 import taxi.lib.Inject;
 import taxi.lib.Service;
 import taxi.model.Driver;
-import taxi.service.AuthenticationService;
-import taxi.service.DriverService;
 
 @Service
 public class AuthenticationServiceImpl implements AuthenticationService {
