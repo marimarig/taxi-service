@@ -1,4 +1,4 @@
-package taxi.dao.impl;
+package taxi.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,7 +8,6 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import taxi.dao.DriverDao;
 import taxi.exception.DataProcessingException;
 import taxi.lib.Dao;
 import taxi.model.Driver;
@@ -126,6 +125,12 @@ public class DriverDaoImpl implements DriverDao {
         String licenseNumber = resultSet.getString("license_number");
         String login = resultSet.getString("login");
         String password = resultSet.getString("password");
-        return new Driver(id, name, licenseNumber, login, password);
+        Driver driver = new Driver();
+        driver.setId(id);
+        driver.setName(name);
+        driver.setLicenseNumber(licenseNumber);
+        driver.setLogin(login);
+        driver.setPassword(password);
+        return driver;
     }
 }

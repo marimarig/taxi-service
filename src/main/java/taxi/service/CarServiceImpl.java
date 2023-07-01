@@ -1,4 +1,4 @@
-package taxi.service.impl;
+package taxi.service;
 
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -7,7 +7,6 @@ import taxi.lib.Inject;
 import taxi.lib.Service;
 import taxi.model.Car;
 import taxi.model.Driver;
-import taxi.service.CarService;
 
 @Service
 public class CarServiceImpl implements CarService {
